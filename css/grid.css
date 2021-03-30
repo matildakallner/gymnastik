@@ -1,0 +1,95 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(24,1fr);
+  grid-template-rows: repeat(30,50px);
+}
+
+/*gemensamt*/
+h1{
+  grid-row: 1/3;
+  grid-column: 1/-1;
+}
+ul{
+  grid-row: 3/5;
+  grid-column: 1/-1;
+}
+footer{
+  grid-row: 29/31;
+  grid-column: 1/-1;
+}
+
+/*index*/
+h2{
+  grid-row: 6/10;
+  grid-column: 12/23;
+}
+figure{
+  grid-row: 6/12;
+  grid-column: 2/11;
+}
+.first{
+  grid-row: 13/17;
+  grid-column: 2/13;
+}
+.second{
+  grid-row: 11/17;
+  grid-column: 14/23;
+}
+.third{
+  grid-row: 18/22;
+  grid-column: 12/23;
+}
+.forth{
+  grid-row: 18/24;
+  grid-column: 2/11;
+}
+.fith{
+  grid-row: 25/28;
+  grid-column: 2/12;
+}
+.sixth{
+  grid-row: 25/28;
+  grid-column: 12/23;
+}
+
+/* klass sidan*/
+h3{
+grid-row: 5/7;
+grid-column: 1/-1;
+}
+.seventh{
+  grid-row: 8/11;
+  grid-column: 2/7;
+}
+.eighth{
+  grid-row: ;
+  grid-column: ;
+}
+.nineth{
+  grid-row: ;
+  grid-column: ;
+}
+.tenth{
+  grid-row: ;
+  grid-column: ;
+}
+.eleventh{
+  grid-row: ;
+  grid-column: ;
+}
+.tweleth{
+  grid-row: ;
+  grid-column: ;
+}
+.klass{
+  grid-row: ;
+  grid-column: ;
+}
+.nivåer{
+  grid-row: ;
+  grid-column: ;
+}
+
+@media only screen and (max-width: 600px){
+
+}

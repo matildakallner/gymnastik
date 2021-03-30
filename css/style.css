@@ -1,0 +1,49 @@
+h1{
+  color: #000000;
+  background-color: #ff0000;
+  margin: 0;
+}
+ul{
+  color: #000000;
+  background-color: #ff9900;
+  margin: 0;
+}
+h2{
+  color: #000000;
+  background-color: #f2ff00;
+  margin: 0;
+}
+figure{
+  color: #000000;
+  background-color: #24ff00;
+  margin: 0;
+}
+.first{
+  color: #000000;
+  background-color:#00f7ff;
+  margin: 0;
+}
+.second{
+  color: #000000;
+  background-color:#ff0090;
+}
+.third{
+  color: #000000;
+  background-color:#001aff;
+}
+.forth{
+  color: #000000;
+  background-color:#00fff0;
+}
+.fith{
+  color: #000000;
+  background-color:#d704ff;
+}
+.sixth{
+  color: #000000;
+  background-color:#d704ff;
+}
+footer{
+  color: #000000;
+  background-color:#ffa100;
+}
