@@ -11,7 +11,7 @@ h1{
 }
 ul{
   grid-row: 3/5;
-  grid-column: 1/-1;
+  grid-column: 2/24;
 }
 footer{
   grid-row: 29/31;
@@ -19,13 +19,13 @@ footer{
 }
 
 /*index*/
-h2{
+.zero{
   grid-row: 6/10;
-  grid-column: 12/23;
+  grid-column: 13/24;
 }
 figure{
   grid-row: 6/12;
-  grid-column: 2/11;
+  grid-column: 2/12;
 }
 .first{
   grid-row: 13/17;
@@ -33,11 +33,11 @@ figure{
 }
 .second{
   grid-row: 11/17;
-  grid-column: 14/23;
+  grid-column: 14/24;
 }
 .third{
   grid-row: 18/22;
-  grid-column: 12/23;
+  grid-column: 12/24;
 }
 .forth{
   grid-row: 18/24;
@@ -49,47 +49,52 @@ figure{
 }
 .sixth{
   grid-row: 25/28;
-  grid-column: 12/23;
+  grid-column: 12/24;
 }
 
 /* klass sidan*/
-h3{
-grid-row: 5/7;
+.h31{
+  grid-row: 5/6;
+  grid-column: 1/-1;
+}
+.h32{
+grid-row: 17/18;
 grid-column: 1/-1;
 }
 .seventh{
-  grid-row: 8/11;
-  grid-column: 2/7;
+  grid-row: 7/11;
+  grid-column: 4/9;
 }
 .eighth{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 7/11;
+  grid-column: 10/16;
 }
 .nineth{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 7/11;
+  grid-column: 17/22;
 }
 .tenth{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 19/23;
+  grid-column: 4/9;
 }
 .eleventh{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 19/23;
+  grid-column: 10/16;
 }
 .tweleth{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 19/23;
+  grid-column: 17/22;
 }
 .klass{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 12/16;
+  grid-column: 2/24;
 }
 .nivåer{
-  grid-row: ;
-  grid-column: ;
+  grid-row: 24/28;
+  grid-column: 2/24;
 }
 
 @media only screen and (max-width: 600px){
+
 
 }
