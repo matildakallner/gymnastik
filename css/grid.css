@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-template-columns: repeat(24,1fr);
-  grid-template-rows: repeat(30,50px);
+  grid-template-rows: repeat(33,50px);
 }
 
 /*gemensamt*/
@@ -14,41 +14,49 @@ ul{
   grid-column: 2/24;
 }
 footer{
-  grid-row: 29/31;
+  grid-row: 32/34;
   grid-column: 1/-1;
 }
 
 /*index*/
-.zero{
-  grid-row: 6/10;
-  grid-column: 13/24;
+.hej{
+  grid-row: 6/15;
+  grid-column: 2/6;
 }
-figure{
-  grid-row: 6/12;
-  grid-column: 2/12;
+.zero{
+  grid-row: 6/15;
+  grid-column: 20/24;
+}
+.slideshow-container{
+  grid-row: 6/15;
+  grid-column: 6/20;
+}
+.mySildes{
+grid-row: 6/15;
+grid-column: 6/20;
 }
 .first{
-  grid-row: 13/17;
+  grid-row: 16/20;
   grid-column: 2/13;
 }
 .second{
-  grid-row: 11/17;
+  grid-row: 16/22;
   grid-column: 14/24;
 }
 .third{
-  grid-row: 18/22;
+  grid-row: 23/27;
   grid-column: 12/24;
 }
 .forth{
-  grid-row: 18/24;
+  grid-row: 21/27;
   grid-column: 2/11;
 }
 .fith{
-  grid-row: 25/28;
-  grid-column: 2/12;
+  grid-row: 28/31;
+  grid-column: 2/24;
 }
 .sixth{
-  grid-row: 25/28;
+  grid-row: 28/31;
   grid-column: 12/24;
 }
 
