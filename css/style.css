@@ -208,7 +208,7 @@ box-shadow: 0 2px 4px 0 #424242;
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 600px){
 p{
   font-size: 10px;
 }
@@ -226,7 +226,7 @@ h1{
   font-size: 50px;
 }
 }
-/*
+
 @media only screen and (max-width: 500px){
 p{
   font-size: 5px;
@@ -238,4 +238,3 @@ h4{
   font-size: 7px;
 }
 }
-*/
