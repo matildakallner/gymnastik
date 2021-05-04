@@ -229,12 +229,19 @@ h1{
 
 @media only screen and (max-width: 400px){
 p{
-  font-size: 5px;
+  font-size: 7px;
 }
-h3{
+li{
+  display: inline-block;
+  margin-left: 5vw ;
+  margin-top: 40px;
   font-size: 10px;
 }
-h4{
-  font-size: 7px;
+h1{
+  color: #000000;
+  background-color: #8be3ff;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
 }
 }
