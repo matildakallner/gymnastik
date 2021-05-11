@@ -1,3 +1,4 @@
+/*gemensamt*/
 body{
   color: #000000;
   background-color: #8be3ff;
@@ -38,7 +39,12 @@ li a:hover {
 h4{
   text-align: center;
 }
+footer{
+  color: #000000;
+  background-color:#6bd8fa;
+}
 
+/*index sidan*/
 .hej{
   color: #000000;
   background-color:#50d5ff;
@@ -83,10 +89,7 @@ h4{
   background-color:#50d5ff;
   box-shadow: 0 2px 4px 0 #424242;
 }
-footer{
-  color: #000000;
-  background-color:#6bd8fa;
-}
+
 
 /* klass sidan */
 h3{
@@ -138,6 +141,7 @@ box-shadow: 0 2px 4px 0 #424242;
   box-shadow: 0 2px 4px 0 #424242;
 }
 
+/*slideshow*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -200,6 +204,7 @@ box-shadow: 0 2px 4px 0 #424242;
   to {opacity: 1}
 }
 
+/* media anpasssning för olika storlekar */
 @media only screen and (max-width: 800px){
   li{
     display: inline-block;
